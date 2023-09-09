@@ -1,0 +1,234 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+
+}
+.home {
+    height: 100vh;
+    width: 100%;
+    background-color: #101010;
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 8%;
+    padding-left: 8%;
+    background-color: #191919;
+    border-bottom: 1px solid plum;
+}
+.logo {
+    color: white;
+    font-size: 35px;
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+span {
+    color: plum;
+}
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 25px;
+}
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+nav ul li a:hover {
+    color: plum;
+    transition: 0.5s;
+}
+.btn {
+    background-color: plum;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 5px 15px;
+    border-radius: 30px;
+    transition: transform .5s;
+}
+.btn:hover {
+    transform: scale(1.2);
+    border: 2px solid plum;
+    background-color: transparent;
+}
+.image {
+    width: 35%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 30px;
+}
+.image img {
+    height: 80%;
+    width: 80%;
+    position: absolute;
+    bottom: 23%;
+    right: 23%;
+    transform: translate(20%);
+}
+.content {
+    position: absolute;
+    top: 30%;
+    left: 8%;
+    transform: transLateY(-50%);
+}
+h4 {
+    color: #fcfc;
+    letter-spacing: 2px;
+    font-size: 20px;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    margin: 20px 0 20px;
+}
+h3 {
+    color: white;
+    font-size: 20px;
+    margin-bottom: 50px;
+}
+.content a {
+    font-size: 15px;
+    background: plum;
+    color: white;
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 20px;
+    border: 1px solid white;
+    transition: .5s;
+}
+.content a:hover {
+    background: transparent;
+    border: 1px solid plum;
+}
+.about {
+    width: 100%;
+    padding: 100 px 0;
+    background-color: #191919;
+}
+.about-me {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.about-me img {
+    height: auto;
+    width: 430px;
+    border-radius: 10px;
+}
+.about-text {
+    width: 550px;
+}
+.about-text h2 {
+    color: white;
+    font-size: 65px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    border-bottom: 1px solid plum;
+}
+.about-text h5 {
+    color: plum;
+    letter-spacing: 2px;
+    font-size: 22px;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+.about-text p {
+    color: rgb(204, 204, 204);
+    letter-spacing: 1 px;
+    line-height: 28px;
+    font-size: 18px;
+    margin-bottom: 45px;
+    text-align: justify;
+}
+.button {
+    background-color: plum;
+    color: white;
+    border: 1px solid white;
+    font-weight: bold;
+    padding: 13px 30px;
+    border-radius: 30px;
+}
+.button:hover {
+    background-color: transparent;
+    border: 2px solid plum;
+    cursor: pointer;
+}
+.box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 400px;
+}
+.card {
+    height: 365px;
+    width: 270px;
+    padding: 20px 35px;
+    background: #141414;
+    border-radius: 20px;
+    margin: 15px;
+    position: relative;
+    overflow: hidden;
+    text-align: center;
+    border: 1px solid plum;
+}
+.card i {
+    font-size: 70px;
+    display: block;
+    text-align: center;
+    margin: 25px 0;
+    color: plum;
+}
+.card h5 {
+    color: white;
+    font-size: 23px;
+    margin-bottom: 15px;
+    text-align: center;
+}
+.pra p {
+    color: #fcfc;
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 25px;
+    text-align: justify;
+}
+.pra p a {
+    background-color: plum;
+    color: white;
+    border: 2px solid white;
+    font-weight: bold;
+    padding: 9px 22px;
+    border-radius: 30px;
+} 
+.pra p a:hover {
+    background-color: transparent;
+    border: 2px solid plum;
+    cursor: pointer;
+    text-align: center;
+}
+.tittle {
+    width: 150%;
+    padding: 100 px 0;
+    background-color: #caa6d1;
+}
+.tittle {
+    width: 1130px;
+    max-width: 95%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.pra p {
+    text-align: center;
+}
